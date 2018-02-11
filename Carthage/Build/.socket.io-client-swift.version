@@ -1,0 +1,9 @@
+{
+  "commitish" : "v13.1.1",
+  "Mac" : [
+    {
+      "hash" : "4666ebf350ffe7745f93e0f325b28c69597589c625aa9fe781dfe271a48ce0a4",
+      "name" : "SocketIO"
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B185D59E202F65CE003EB091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185D59D202F65CE003EB091 /* AppDelegate.swift */; };
+		B185D5A0202F65CE003EB091 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B185D59F202F65CE003EB091 /* GameScene.sks */; };
+		B185D5A4202F65CE003EB091 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185D5A3202F65CE003EB091 /* GameScene.swift */; };
+		B185D5A6202F65CE003EB091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185D5A5202F65CE003EB091 /* ViewController.swift */; };
+		B185D5A8202F65CE003EB091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B185D5A7202F65CE003EB091 /* Assets.xcassets */; };
+		B185D5AB202F65CE003EB091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B185D5A9202F65CE003EB091 /* Main.storyboard */; };
+		B185D5B5202F7C4D003EB091 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B185D5B4202F7C4D003EB091 /* SocketIO.framework */; };
+		B185D5B7202F7C7F003EB091 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185D5B6202F7C7F003EB091 /* Server.swift */; };
+		B185D5B9202F7E35003EB091 /* SocketIO.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B185D5B4202F7C4D003EB091 /* SocketIO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B185D5BB202F7E4A003EB091 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B185D5BA202F7E4A003EB091 /* Starscream.framework */; };
+		B185D5BC202F7E4F003EB091 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B185D5BA202F7E4A003EB091 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B185D5B8202F7E2A003EB091 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B185D5B9202F7E35003EB091 /* SocketIO.framework in CopyFiles */,
+				B185D5BC202F7E4F003EB091 /* Starscream.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B185D59A202F65CE003EB091 /* Lisk Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lisk Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B185D59D202F65CE003EB091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B185D59F202F65CE003EB091 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B185D5A3202F65CE003EB091 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B185D5A5202F65CE003EB091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B185D5A7202F65CE003EB091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B185D5AA202F65CE003EB091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B185D5AC202F65CE003EB091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B185D5AD202F65CE003EB091 /* Lisk_Explorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lisk_Explorer.entitlements; sourceTree = "<group>"; };
+		B185D5B4202F7C4D003EB091 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Carthage/Build/Mac/SocketIO.framework; sourceTree = "<group>"; };
+		B185D5B6202F7C7F003EB091 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		B185D5BA202F7E4A003EB091 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/Mac/Starscream.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B185D597202F65CE003EB091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B185D5B5202F7C4D003EB091 /* SocketIO.framework in Frameworks */,
+				B185D5BB202F7E4A003EB091 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B185D591202F65CE003EB091 = {
+			isa = PBXGroup;
+			children = (
+				B185D59C202F65CE003EB091 /* Lisk Explorer */,
+				B185D59B202F65CE003EB091 /* Products */,
+				B185D5B3202F7C4D003EB091 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B185D59B202F65CE003EB091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B185D59A202F65CE003EB091 /* Lisk Explorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B185D59C202F65CE003EB091 /* Lisk Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				B185D59D202F65CE003EB091 /* AppDelegate.swift */,
+				B185D5A5202F65CE003EB091 /* ViewController.swift */,
+				B185D5A3202F65CE003EB091 /* GameScene.swift */,
+				B185D5B6202F7C7F003EB091 /* Server.swift */,
+				B185D5A7202F65CE003EB091 /* Assets.xcassets */,
+				B185D59F202F65CE003EB091 /* GameScene.sks */,
+				B185D5A9202F65CE003EB091 /* Main.storyboard */,
+				B185D5AC202F65CE003EB091 /* Info.plist */,
+				B185D5AD202F65CE003EB091 /* Lisk_Explorer.entitlements */,
+			);
+			path = "Lisk Explorer";
+			sourceTree = "<group>";
+		};
+		B185D5B3202F7C4D003EB091 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B185D5BA202F7E4A003EB091 /* Starscream.framework */,
+				B185D5B4202F7C4D003EB091 /* SocketIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B185D599202F65CE003EB091 /* Lisk Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B185D5B0202F65CE003EB091 /* Build configuration list for PBXNativeTarget "Lisk Explorer" */;
+			buildPhases = (
+				B185D596202F65CE003EB091 /* Sources */,
+				B185D597202F65CE003EB091 /* Frameworks */,
+				B185D598202F65CE003EB091 /* Resources */,
+				B185D5B8202F7E2A003EB091 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lisk Explorer";
+			productName = "Lisk Explorer";
+			productReference = B185D59A202F65CE003EB091 /* Lisk Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B185D592202F65CE003EB091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Tagtaxa;
+				TargetAttributes = {
+					B185D599202F65CE003EB091 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B185D595202F65CE003EB091 /* Build configuration list for PBXProject "Lisk Explorer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B185D591202F65CE003EB091;
+			productRefGroup = B185D59B202F65CE003EB091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B185D599202F65CE003EB091 /* Lisk Explorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B185D598202F65CE003EB091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B185D5A0202F65CE003EB091 /* GameScene.sks in Resources */,
+				B185D5A8202F65CE003EB091 /* Assets.xcassets in Resources */,
+				B185D5AB202F65CE003EB091 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B185D596202F65CE003EB091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B185D5A6202F65CE003EB091 /* ViewController.swift in Sources */,
+				B185D5A4202F65CE003EB091 /* GameScene.swift in Sources */,
+				B185D5B7202F7C7F003EB091 /* Server.swift in Sources */,
+				B185D59E202F65CE003EB091 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B185D5A9202F65CE003EB091 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B185D5AA202F65CE003EB091 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B185D5AE202F65CE003EB091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B185D5AF202F65CE003EB091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		B185D5B1202F65CE003EB091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WN8B3R544B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Lisk Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tagtaxa.Lisk-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B185D5B2202F65CE003EB091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WN8B3R544B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Lisk Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tagtaxa.Lisk-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B185D595202F65CE003EB091 /* Build configuration list for PBXProject "Lisk Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B185D5AE202F65CE003EB091 /* Debug */,
+				B185D5AF202F65CE003EB091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B185D5B0202F65CE003EB091 /* Build configuration list for PBXNativeTarget "Lisk Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B185D5B1202F65CE003EB091 /* Debug */,
+				B185D5B2202F65CE003EB091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B185D592202F65CE003EB091 /* Project object */;
+}
